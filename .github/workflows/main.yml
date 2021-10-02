@@ -30,7 +30,7 @@ jobs:
       - name: Docker Build and Push
         uses: docker/build-push-action@v2.7.0
         with:
-          context: ./ConversaoPeso.web
+          context: ./ConversaoPeso.Web
           file: ./ConversaoPeso.web/Dockerfile
           push: true
           tags: |
